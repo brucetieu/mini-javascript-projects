@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightblue;
+    height: 100vh;
+}
+
+.review {
+   width: 400px;
+   height: auto;
+   padding: 50px;
+   background-color: white;
+}
+
+.profile-pic { 
+    margin-bottom: 10px;
+}
+
+#occupation {
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+#description {
+    margin-top: 15px;
+    line-height: 1.6rem;
+}
+.arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 50px
+}
+
+i {
+    position: relative;
+    cursor: pointer;
+}
+
+i:active {
+    top: 0.1em;
+}
+
+#randomize {
+    cursor: pointer;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.15em;
+    font-family: 'Roboto',sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #3369ff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+#randomize:active {
+    top:0.1em;
+}
