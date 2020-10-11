@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.overall-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Time options */
+.time-options-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-options {
+    background:lightcoral;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+}
+
+.time-options a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Timer */
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer p {
+    font-size: 100px;
+}
+
+/* Buttons for start, stop, reset */
+.start-stop-reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    padding: 10px;
+}
+
+.button-container button {
+    cursor: pointer;
+    font-size: 20px;
+}
