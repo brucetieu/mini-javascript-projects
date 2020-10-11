@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+#counter-text {
+    font-size: 40px;
+}
+.number-container {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.button-wrapper button {
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    margin-right: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
